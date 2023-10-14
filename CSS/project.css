@@ -1,0 +1,87 @@
+
+/* Start Glopal Rulse */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+/* End Glopal Rulse */
+
+/* start header */
+header {
+    background-color: rgb(36 112 124);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+header .logo {
+    margin: 10px 0 -10px 150px;
+}
+header .logo h4 {
+    color: white;
+    font-size: 30px;
+}
+header .logo img {  
+    width: 7%;
+    transform: translate(-50px, -35px);
+}
+header .head {
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+header .head .a-link {
+    margin-right: 120px;
+}
+header .head .a-link a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+header .head .a-link a:hover {
+    color: black;
+    text-decoration:underline;
+}
+header .head .button {
+    margin-right: 10px;
+    margin-top: -10px;
+}
+header .head .button button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4d84c6;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+header .head .button button:hover {
+    background-color: #0e2f57;
+    border-radius: 5px;
+}
+header .head .button a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.photo {
+    background-image: url(../img/7f12a081-03bd-4404-9ec0-a4cf6c3214d2.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* end header */
